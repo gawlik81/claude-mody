@@ -15,7 +15,7 @@ Opcja `pasek` (domyślnie wyłączona): propozycja „Wytłumacz” nad promptem
 ## Instalacja
 
 ```
-/plugin marketplace add OWNER/REPO
+/plugin marketplace add gawlik81/claude-mody
 /plugin install wytlumacz@pawel-mody
 ```
 

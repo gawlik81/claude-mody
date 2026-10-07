@@ -10,7 +10,7 @@ Marketplace modów do Claude Code (terminal i zakładka Code w aplikacji desktop
 ## Instalacja
 
 ```
-/plugin marketplace add OWNER/REPO
+/plugin marketplace add gawlik81/claude-mody
 /plugin install pasek-sesji@pawel-mody
 /plugin install wytlumacz@pawel-mody
 /reload-plugins
@@ -19,7 +19,7 @@ Marketplace modów do Claude Code (terminal i zakładka Code w aplikacji desktop
 Albo z terminala:
 
 ```
-claude plugin marketplace add OWNER/REPO
+claude plugin marketplace add gawlik81/claude-mody
 claude plugin install pasek-sesji@pawel-mody
 claude plugin install wytlumacz@pawel-mody
 ```

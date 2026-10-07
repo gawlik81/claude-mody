@@ -12,7 +12,7 @@ Opcje (`/config`): `progHandoff` (35), `skillHandoff` (`session-handoff-prompt`)
 ## Instalacja
 
 ```
-/plugin marketplace add OWNER/REPO
+/plugin marketplace add gawlik81/claude-mody
 /plugin install pasek-sesji@pawel-mody
 ```
 

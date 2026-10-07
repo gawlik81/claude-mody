@@ -1,6 +1,6 @@
 {
   "name": "pasek-sesji",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pasek sesji nad promptem: kontekst, limity 5h/tydzień, koszt, cache, przyciski Handoff i Wytłumacz",
   "author": { "name": "Paweł Miernik" },
   "types": "./types/index.d.ts",

@@ -9,6 +9,10 @@ Karta nad promptem w Claude Code:
 
 Opcje (`/config`): `progHandoff` (35), `skillHandoff` (`session-handoff-prompt`), `cacheTtlMin` (60).
 
+## Wymagania
+
+Terminal: Claude Code 2.1.287+. Zakładka Code w aplikacji desktop: wbudowany Claude Code 2.1.286+ (`/status`). Po instalacji lub aktualizacji moda uruchom `/reload-plugins` albo otwórz nową sesję. Nie rysuje się w sesjach WSL ani w rozszerzeniu VS Code.
+
 ## Instalacja
 
 ```

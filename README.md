@@ -7,6 +7,10 @@ Marketplace modów do Claude Code (terminal i zakładka Code w aplikacji desktop
 | [`pasek-sesji`](plugins/pasek-sesji) | Karta nad promptem: kontekst, limity 5h/tydzień, koszt, cache; przycisk **Handoff** powyżej 35% kontekstu i **Wytłumacz** |
 | [`wytlumacz`](plugins/wytlumacz) | `/wytlumacz` — po polsku i prostym językiem wyjaśnia, co Claude właśnie zrobił |
 
+## Wymagania
+
+Mody działają w terminalu od Claude Code 2.1.287 i w zakładce Code aplikacji desktop od wbudowanego Claude Code 2.1.286 (sprawdź `/status`, wiersz **Claude Code**). Starsza wersja ładuje wtyczkę, ale nie uruchamia moda, więc nic się nie pojawia. Mody nie działają w sesjach WSL ani w rozszerzeniu VS Code (hooki tak, rysowanie nie).
+
 ## Instalacja
 
 ```

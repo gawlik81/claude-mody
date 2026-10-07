@@ -1,0 +1,27 @@
+{
+  "name": "pasek-sesji",
+  "version": "0.1.0",
+  "description": "Pasek sesji nad promptem: kontekst, limity 5h/tydzień, koszt, cache, przyciski Handoff i Wytłumacz",
+  "author": { "name": "Paweł Miernik" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "progHandoff": {
+      "type": "number",
+      "title": "Próg Handoff (%)",
+      "description": "Przycisk Handoff pojawia się, gdy kontekst przekroczy ten procent",
+      "default": 35
+    },
+    "skillHandoff": {
+      "type": "string",
+      "title": "Skill Handoff",
+      "description": "Nazwa skilla uruchamianego przyciskiem Handoff",
+      "default": "session-handoff-prompt"
+    },
+    "cacheTtlMin": {
+      "type": "number",
+      "title": "TTL cache (min)",
+      "description": "Czas życia prompt cache, od którego liczy się odliczanie",
+      "default": 60
+    }
+  }
+}

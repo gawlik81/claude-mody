@@ -1,0 +1,17 @@
+{
+  "name": "pawel-mody",
+  "owner": { "name": "Paweł Miernik" },
+  "description": "Mody do Claude Code: pasek sesji i wyjaśnienia po polsku",
+  "plugins": [
+    {
+      "name": "pasek-sesji",
+      "source": "./plugins/pasek-sesji",
+      "description": "Pasek sesji nad promptem: kontekst, limity 5h/tydzień, koszt, cache, przyciski Handoff i Wytłumacz"
+    },
+    {
+      "name": "wytlumacz",
+      "source": "./plugins/wytlumacz",
+      "description": "Wyjaśnia po polsku, krok po kroku, co Claude właśnie zrobił (na bazie explain-it)"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "wytlumacz",
+  "version": "0.1.0",
+  "description": "Wytłumacz: po polsku i prostym językiem wyjaśnia krok po kroku, co Claude właśnie zrobił (na bazie explain-it)",
+  "author": { "name": "Paweł Miernik" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "pasek": {
+      "type": "boolean",
+      "title": "Pasek z propozycją",
+      "description": "Pokazuj nad promptem propozycję „Wytłumacz” po turze, która coś zmieniła (wyłącz, jeśli używasz pasek-sesji)",
+      "default": false
+    }
+  }
+}

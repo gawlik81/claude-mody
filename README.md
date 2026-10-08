@@ -15,8 +15,8 @@ Mody działają w terminalu od Claude Code 2.1.287 i w zakładce Code aplikacji 
 
 ```
 /plugin marketplace add gawlik81/claude-mody
-/plugin install pasek-sesji@pawel-mody
-/plugin install wytlumacz@pawel-mody
+/plugin install pasek-sesji@gawlik81-claude-mody
+/plugin install wytlumacz@gawlik81-claude-mody
 /reload-plugins
 ```
 
@@ -24,11 +24,11 @@ Albo z terminala:
 
 ```
 claude plugin marketplace add gawlik81/claude-mody
-claude plugin install pasek-sesji@pawel-mody
-claude plugin install wytlumacz@pawel-mody
+claude plugin install pasek-sesji@gawlik81-claude-mody
+claude plugin install wytlumacz@gawlik81-claude-mody
 ```
 
-Aktualizacja po nowym commicie: `claude plugin marketplace update pawel-mody`, potem `claude plugin update <mod>@pawel-mody`.
+Aktualizacja po nowym commicie: `claude plugin marketplace update gawlik81-claude-mody`, potem `claude plugin update <mod>@gawlik81-claude-mody`.
 
 ## Rozwój
 

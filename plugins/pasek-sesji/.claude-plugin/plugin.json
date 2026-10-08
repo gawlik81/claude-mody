@@ -1,6 +1,6 @@
 {
   "name": "pasek-sesji",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pasek sesji nad promptem: kontekst, limity 5h/tydzień, koszt, cache, przyciski Handoff i Wytłumacz",
   "author": { "name": "Paweł Miernik" },
   "types": "./types/index.d.ts",
@@ -15,7 +15,7 @@
       "type": "string",
       "title": "Skill Handoff",
       "description": "Nazwa skilla uruchamianego przyciskiem Handoff",
-      "default": "session-handoff-prompt"
+      "default": "mattpocock-skills:handoff"
     },
     "cacheTtlMin": {
       "type": "number",

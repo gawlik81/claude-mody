@@ -65,7 +65,7 @@ async function readBranch($: EngineInterface) {
   }
 }
 
-/** Komenda skilla po nazwie, także z prefiksem pluginu (np. `moj-plugin:session-handoff-prompt`). */
+/** Komenda skilla po nazwie, także z prefiksem pluginu (np. `mattpocock-skills:handoff`). */
 async function findCommand($: EngineInterface, name: string) {
   const all = await $.command.list()
   return (
@@ -85,7 +85,7 @@ async function runSkill($: EngineInterface, name: string, missing: string) {
 
 export const register: Register = (on, options) => {
   const threshold = num(options?.progHandoff, 35)
-  const handoffSkill = String(options?.skillHandoff ?? 'session-handoff-prompt').replace(/^\//, '')
+  const handoffSkill = String(options?.skillHandoff ?? 'mattpocock-skills:handoff').replace(/^\//, '')
   const cacheTtl = num(options?.cacheTtlMin, 60) * MIN
 
   on('session.start', async ($, e, next) => {

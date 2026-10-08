@@ -21,7 +21,7 @@ for (const surface of ['terminal', 'desktop'] as const) {
     on('command.list', () => ({
       value: [
         { name: 'wytlumacz', description: '', source: 'plugin' },
-        { name: 'session-handoff-prompt', description: '', source: 'skills' },
+        { name: 'mattpocock-skills:handoff', description: '', source: 'skills' },
       ] as any,
     }))
     on('command.run', ($, e) => { ran = e.command; return { text: '' } })
@@ -36,7 +36,7 @@ for (const surface of ['terminal', 'desktop'] as const) {
     await ui.redraw(props)
     expect(await ui.find({ key: 'handoff' })).toBeDefined()
     await ui.press({ key: 'handoff' })
-    expect(ran).toBe('session-handoff-prompt')
+    expect(ran).toBe('mattpocock-skills:handoff')
 
     await ui.press({ key: 'wytlumacz' })
     expect(ran).toBe('wytlumacz')
